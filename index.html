@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lord of Burn: The Meme Coin Ruling the Crypto Kingdom!</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" class="style" />
+    <link rel="stylesheet" href="css/style.css" class="style" />
+    <link rel="stylesheet" href="css/swiper.css" class="style" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins&display=swap"
+        rel="stylesheet" />
+
+    <!-- Page loading styles-->
+    <style>
+        .page-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all 0.4s 0.2s ease-in-out;
+            transition: all 0.4s 0.2s ease-in-out;
+            background-color: #fff;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9999;
+        }
+
+        .page-loading.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .page-loading-inner {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+        }
+
+        .page-loading.active>.page-loading-inner {
+            opacity: 1;
+        }
+
+        .page-loading-inner>span {
+            display: block;
+            font-size: 1rem;
+            font-weight: normal;
+            color: black;
+            margin: 0;
+            width: auto;
+        }
+
+        .page-spinner {
+            display: inline-block;
+            width: 2.75rem;
+            height: 2.75rem;
+            margin-bottom: 0.75rem;
+            vertical-align: text-bottom;
+            background-color: #fc891c;
+            border-radius: 50%;
+            opacity: 0;
+            -webkit-animation: spinner 0.75s linear infinite;
+            animation: spinner 0.75s linear infinite;
+        }
+
+        @-webkit-keyframes spinner {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            50% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+
+        @keyframes spinner {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            50% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <!-- <div class="page-spinner"></div> -->
+            <img src="img/fire.svg" alt="">
+            <span>Loading...</span>
+        </div>
+    </div>
+
+    <div class="hero">
+        <!-- Navbar -->
+        <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
+        <header class="header navbar navbar-expand-xl navbar-floating">
+            <div class="container">
+                <a href="index.html" class="navbar-brand logo-text order-lg-1 me-lg-5 me-0 pe-lg-2">
+                    <img class="logo-img" src="img/logo.png" alt="">
+                    $LORD
+                </a>
+                <div class="d-flex align-items-center order-lg-3">
+                    <a href="#" class="nav-btn d-sm-inline-block d-none ms-4" target="_blank" rel="noopener">
+                        <i class="ci-cart me-2"></i>
+                        Join Now
+                    </a>
+                    <button class="navbar-toggler ms-1 me-n3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse1" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <nav class="collapse navbar-collapse order-lg-2" id="navbarCollapse1">
+                    <ul class="navbar-nav me-auto text-nowrap">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Challenges">Narrative</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#measures">Utilites</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#nfts">NFTS</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#roadmap">Roadmap</a>
+                        </li>
+                        <li class="nav-item d-sm-none d-block">
+                            <a href="#" class="btn nav-btn btn-sm btn-primary m-3" target="_blank" rel="noopener">
+                                <i class="ci-cart me-2"></i>
+                                Join Now
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="hero-wrap">
+            <div class="container text-center">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-8">
+                        <img src="img/logo.png" class="logo mb-3" />
+
+                        <section class="wrapper">
+                            <div class="title-hero">
+                                LORD OF BURN
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <p>The Meme Coin Ruling the Crypto Kingdom!</p>
+                    </div>
+
+                    <div class="col-lg-8 mt-5 buyNow">
+                        <a class="btn" target="_blank" href="">
+                            TELEGRAM
+                        </a>
+                        <a class="btn" target="_blank" href="#">
+                            BUY NOW
+                        </a>
+                        <a class="btn" target="_blank" href="#">
+                            CHART
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container-fluid whoIs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/21.png" class="img-fluid" />
+                </div>
+                <div class="col-lg-6">
+                    <section class="wrapper">
+                        Lord of Burn
+                    </section>
+                    <section class="wrapper">
+
+                    </section>
+
+                    <p class="mt-5">
+                        🔥 Welcome to Lord of Burn – a meme coin built to pump your bags and reward holders! Lord of
+                        Burn isn’t just another meme token; it’s a coin created for those who dare to have fun. Our
+                        goal? To build the most engaged and enthusiastic community in crypto while taking the meme coin
+                        game to the next level!
+                    </p>
+
+                    <!-- <p> Also Bringing in the Real Life Utilities-Swap, Stake and NFTs</p> -->
+
+                </div>
+
+                <!-- <p class="mt-1">
+                    But that's not all - $PEPEB also rewards its holders with USDT, a stablecoin that is pegged to the US dollar. Simply by holding onto your PEPEB tokens, you'll earn USDT rewards, giving you an added incentive to invest and hold onto this unique cryptocurrency.
+                </p>
+                <p class="mt-1">
+                    So why choose PEPEB? Well, not only is it linked to the popular internet meme, but it also has the potential to be a game- changer in the world of DeFi. With its innovative tokenomics and potential for long-term growth, PEPEB is poised to become a major
+                    player on the Binance Smart Chain. So join us on this exciting new journey and become a part of the PEPEB community today!
+                </p> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="Challenges" class="container whyUs one mb-5">
+
+        <h1> <b class="color-primary">What is Lord of Burn?</b></h1>
+        <div class="row">
+            <p>Lord of Burn ($LORD) is a community-driven meme token inspired by the wild creativity of meme culture and
+                the unstoppable energy of the crypto space. We’re building a vibrant ecosystem where the community
+                leads, laughs, and profits together.
+
+
+
+            </p>
+            <br>
+            Whether you’re a casual memer or a serious crypto enthusiast, Lord of Burn is here to empower you to become
+            part of the most exciting movement in crypto.
+        </div>
+    </div>
+    <div class="container whyUs two">
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-4">
+                <img src="img/22.jpg" class="img-fluid" />
+            </div>
+        </div>
+        <h1> <b class="color-primary">Why is Lord of Burn?</b></h1>
+        <div class="row">
+            <p>
+                Meme-Centered Vision: At the core of Lord of Burn is a deep love for meme culture. We believe in the
+                power
+                of humor, creativity, and collective fun to bring people together. We’re building more than a
+                token—we’re
+                building a movement. </p>
+            <br>
+            <p>
+                Community First: Lord of Burn is all about the community. Whether you’re a holder, contributor, or meme
+                creator, we want you to be part of the journey. Together, we’re stronger, and together we reign.
+            </p><br>
+            <p>Massive Growth Potential: Meme coins have proven to take the crypto world by storm. With a strong
+                community
+                and viral appeal, Lord of Burn has the potential to go to the moon—and beyond!
+            </p>
+        </div>
+
+    </div>
+
+
+    <div id="tokenomics" class="container-fluid tokenomics">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-lg-6">
+                    <!-- <h6><b class="text-dark">LBOR</b></h6> -->
+                    <section class="wrapper">
+                        Tokenomics-The Heart of $LORD
+                    </section>
+                    <p>Our tokenomics are designed to benefit the community and promote growth. Lord of Burn is about
+                        building value for its holders and fostering a loyal following.</p>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center text-center mt-5">
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div class="ctaa text-center">
+                        <h1>1,000,000,000 </h1>
+                        <h3>Total Supply</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div class="ctaa text-center">
+                        <h1>20%</h1>
+                        <h3>Liquidity Pool-Locked</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div class="ctaa text-center">
+                        <h1>15%</h1>
+                        <h3>Community Rewards</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div class="ctaa text-center">
+                        <h1>10%</h1>
+                        <h3>Development Fund</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container taxes">
+        <div class="row text-center justify-content-center">
+            <div class="col-lg-8">
+                <div class="clip-text clip-text_thirteen clip-text--cover">
+                    robust tokenomics structure
+                </div>
+            </div>
+        </div>
+        <div class="row mt-8 justify-content-center mt--8">
+
+            <div class="col-lg-4">
+                <img src="img/23.png" class="img-fluid" />
+            </div>
+            <div class="row partnerList mt-5">
+                <div class="col-lg-4 col-12">
+                    <p><span class="color-primary">Liquidity Pool-Locked</span> 20% of the total supply is locked to
+                        ensure stability.</p>
+
+                    <p><span class="color-primary">Community Rewards</span> 15% of the supply is allocated for
+                        rewarding the community, including giveaways, contests, and influencer partnerships.</p>
+
+                    <p><span class="color-primary">Development Fund</span> 10% of the supply is dedicated to building
+                        new features and expanding the Lord of Burn ecosystem.</p>
+
+                    <!-- <p><span class="color-primary">Marketing tax</span> is 2% which sends 2% of the transaction in the form of BNBs automatically to the marketing wallet to support marketing activities and collabs.
+                    </p>
+                    <p><span class="color-primary">Rewards tax</span> is 1% which automatically rewards all holders of $PEPEB with USDT depending on how many tokens they are holding. For example; the more you hold the more rewards in USDT you get!</p> -->
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-12">
+                            <div class="box box3">
+                                <h4>Buy tax</h4>
+                                <h1>0%</h1>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-6 col-6">
+                            <div class="box box3">
+                                <h4>Burn tax</h4>
+                                <h1>2%</h1>
+                            </div> -->
+                    </div>
+                    <div class="col-lg-12 col-12">
+                        <div class="box box3">
+                            <h4>Sell tax</h4>
+                            <h1>0%</h1>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-6 col-6">
+                            <div class="box box3">
+                                <h4>Rewards tax</h4>
+                                <h1>1%</h1>
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="measures" class="container-fluid tokenomics measures">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-lg-4">
+                    <!-- <h6><b class="text-dark"> </b></h6> -->
+                    <section class="wrapper">
+                        How to Buy Lord of Burn?
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center text-center mt-5">
+                <div class="col-lg-4 mb-4">
+                    <div class="ctaa text-center one">
+
+                        <h1>Create a Wallet</h1>
+                        <p>Download MetaMask, Trust Wallet, or your favorite wallet app.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="ctaa text-center two">
+                        <h1>Purchase ETH</h1>
+                        <p>
+                            You’ll need ETH depending on the blockchain Lord of Burn is on.
+                        </p>
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ctaa text-center three">
+                        <h1>Swap for $LORD</h1>
+                        <p>
+                            Use a decentralized exchange like Uniswap to swap your tokens for $LORD.. </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <p>Join the Ranks: HODL your $LORD tokens and watch as you become part of the Lord of Burn empire.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="roadmap" class="section roadmap2">
+        <div class="container">
+            <h2 class="section_title">Roadmap</h2>
+            <div class="roadmap_wrap">
+
+                <div class="roadmap_content">
+                    <div class="row roadmap_item">
+                        <div class="roadmap_bar">
+                            <div class="wavy_line"></div>
+                        </div>
+                        <div class="col-md-6 roadmap_left">
+                            <div class="box style_two roadmap_container no_deco">
+                                <div class="roadmap_circle">
+                                    <span></span>
+                                </div>
+                                <h4 class="roadmap_phase">Phase 1: The Awakening (Q1 2024)</h4>
+                                <p>
+                                    - Token launch and major community-building campaigns
+                                    <br> - Meme contests and community giveaways
+                                    Initial exchange listings
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 offset-lg-6 roadmap_right">
+                            <div class="box style_two roadmap_container">
+                                <div class="roadmap_circle">
+                                    <span></span>
+                                </div>
+                                <h4 class="roadmap_phase">Phase 2: The Rise of the Lord (Q2 2024)
+                                </h4>
+                                <p>
+                                    - Expansion into new exchanges
+                                    Influencer partnerships and meme collaborations <br> - Development of a Lord of Burn
+                                    meme generator and game
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row roadmap_item">
+                        <div class="roadmap_bar">
+                            <div class="wavy_line"></div>
+                        </div>
+                        <div class="col-md-6 roadmap_left">
+                            <div class="box style_two roadmap_container">
+                                <div class="roadmap_circle">
+                                    <span></span>
+                                </div>
+                                <h4 class="roadmap_phase">Phase 3: The Reign (Q3 2024)</h4>
+                                <p>
+                                    - Launch of Lord of Burn NFT collection <br> - Community-driven projects and
+                                    initiatives
+                                    <br>
+                                    - Larger exchange listings and global meme adoption
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 offset-lg-6 roadmap_right">
+                            <div class="box style_two roadmap_container">
+                                <div class="roadmap_circle">
+                                    <span></span>
+                                </div>
+                                <h4 class="roadmap_phase">Phase 4: The Empire (Q4 2024 and Beyond)</h4>
+                                <p>
+                                    - Massive meme marketing campaigns <br> - Collaborations with meme creators and
+                                    crypto influencers <br> -
+                                    Ongoing community rewards and development expansions<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div  id="roadmap" class="container-fluid roadMap mt-10">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-5 mb-5 text-center">
+            <section class="wrapper">
+              ROADMAP
+            </section>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 mb-4">
+            <div class="box2">
+              <h2 class="cta">STAGE 1</h2>
+              <ul class="list-unstyled">
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Website design, whitepaper and
+                  all social updates</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Contract development, audit
+                  and KYC completition</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Pinksale ICO selection and SAFU
+                  developer</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Presale marketing campaigns</li>
+            
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="box2">
+              <h2 class="cta">STAGE 2</h2>
+              <ul class="list-unstyled">
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Launch on Pancakeswap &
+                  liquidity</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Partnerships with influencers
+                  and twitter $PEPE targeted
+                  marketing</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Listing on CoinMarketCap and
+                  CoinGecko</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Twitter, telegram and dexview
+                  trending</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="box2">
+              <h2 class="cta">STAGE 3</h2>
+              <ul class="list-unstyled">
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> First Centralized Exchange
+                  listing</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Community activities and
+                  giveaways</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> AMA sessions on talk channels</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Press releases across news
+                  channels and Media
+                  amplification</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="box2">
+              <h2 class="cta">STAGE 4</h2>
+              <ul class="list-unstyled">
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Major burn events</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> Second Centralized Exchange
+                  listing</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> NFT reveal and utility expansion
+                  with staking</li>
+                <li><img src="img/fire-icon.svg" class="img-fluid" style="height: 24px;" alt=""> DAO integration and cross
+                  chain bridge</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container nfts mt-10">
+        <div id="nfts" class="row text-center justify-content-center">
+            <div class="col-lg-8">
+                <div class="clip-text clip-text_thirteen clip-text--cover">
+                    The Power of the Lord
+                </div>
+            </div>
+        </div>
+        <div class="row mt-8 justify-content-center mt--4">
+
+            <div class="col-lg-4">
+                <img class="logo" src="img/24.png" class="img-fluid">
+            </div>
+            <p style="text-align: center; margin-top: 20px;"><b>Community is Key</b>-At Lord of Burn, we believe that
+                community is everything.
+                We’re not just building a token; we’re building a meme empire that’s fueled by the passion and
+                creativity of our holders. By joining Lord of Burn, you’re not just investing in a coin—you’re joining a
+                movement of people who are ready to have fun, create memes, and dominate the crypto space together.
+            </p>
+            <!-- <div class="row partnerList mt-5">
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="box">
+                        <h4>max supply</h4>
+                        <h1>1,000</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="box">
+                        <h4>mint price</h4>
+                        <h1>TBD</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="box">
+                        <h4>chain</h4>
+                        <h1>ETH</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="box">
+                        <h4>Theme</h4>
+                        <h1>Pysops</h1>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="img/25.png" class="img-fluid" />
+                </div>
+                <div class="col-lg-6 offset-lg-1 d-flex align-content-center flex-wrap">
+                    <h1><b>Official links</b></h1>
+                    <div>
+                        <p style="display: flex; flex-direction: column;">
+                            For any inquiry, please reach out to use on:<span
+                                style="color: #22af64;">team@lordofburn.com</span>
+                        </p>
+
+                    </div>
+                    <div class="mt-4">
+                        <p style="margin-bottom: 20px;">All links relevant to the project can be found below:</p>
+                        <div class="row list-footer">
+                            <div class="col-lg-6 col-6 list-footer-item">
+                                <a class="btn" href="#" target="_blank">
+                                    Contract
+
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-6 list-footer-item">
+                                <a class="btn" target="_blank" href="#">
+                                    UniSwap
+
+                                </a>
+                            </div>
+                            <!-- <div class="col-lg-4 col-6 list-footer-item">
+                                <a class="btn" target="_blank" href="#">
+                  Audit
+                   
+                  </a>
+                            </div> -->
+                            <div class="col-lg-6 col-6 list-footer-item">
+                                <a class="btn" href="#" target="_blank">
+                                    Twitter
+
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-6 list-footer-item">
+                                <a class="btn" target="_blank" href="#">
+                                    Telegram
+
+                                </a>
+                            </div>
+                            <!-- <div class="col-lg-4 col-6 list-footer-item">
+                                <a class="btn" target="_blank" href="#">
+                  KYC
+                   
+                  </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <p>All rights reserved LORD OF BURN 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
